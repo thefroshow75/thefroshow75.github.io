@@ -9,4 +9,11 @@ h1 {
       padding: 0;
       text-align: center;
     }
+
+h3 {
+      color: red;
+      font-size: 26px;
+      font-weight: 700;
+      padding: 20px 10px;
+    }
     
