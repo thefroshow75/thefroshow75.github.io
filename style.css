@@ -22,6 +22,8 @@ h3 {
       font-weight: 700;
       padding: 20px 10px;
     }
+    
+
 #banner {
       background-image: url("https://content.codecademy.com/courses/web-101/unit-6/htmlcss1-img_tahoe.jpeg");
       background-size: cover;
@@ -30,4 +32,17 @@ h3 {
       width: 100%;
     }
 
+#projects .Coding{
+      height: 60px;
+      width: 60px;
+      border: 3px solid blue;
+      border-radius: 15px;
+}
+
+#projects .Electronics{
+      height: 60px;
+      width: 60px;
+      border: 3px solid blue;
+      border-radius: 15px;
+}
     
