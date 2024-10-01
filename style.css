@@ -10,10 +10,24 @@ h1 {
       text-align: center;
     }
 
+h2 {
+      margin: 0;
+      padding: 25;
+      text-align: center;
+    }
+
 h3 {
       color: red;
       font-size: 26px;
       font-weight: 700;
       padding: 20px 10px;
     }
+#banner {
+      background-image: url("https://content.codecademy.com/courses/web-101/unit-6/htmlcss1-img_tahoe.jpeg");
+      background-size: cover;
+      background-position: bottom center;
+      height: 700px;
+      width: 100%;
+    }
+
     
