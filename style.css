@@ -32,14 +32,21 @@ h3 {
       width: 100%;
     }
 
-#projects .Coding{
+.Projets{
       height: 60px;
       width: 60px;
       border: 3px solid blue;
       border-radius: 15px;
 }
 
-#projects .Electronics{
+.Coding{
+      height: 60px;
+      width: 60px;
+      border: 3px solid blue;
+      border-radius: 15px;
+}
+
+.Electronics{
       height: 60px;
       width: 60px;
       border: 3px solid blue;
