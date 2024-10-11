@@ -3,21 +3,43 @@ body {
       margin: 0;
       padding: 0;
       background-color: #f4f4f4;
-      
   }
   .navbar {
-    font-family: Arial, sans-serif;
+      font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f4f4f4;
+      background-color: #444;
       position: fixed;
+      width: 100%;
+  }
+  .navbar a {
+      color: #fff;
+      padding: 14px 20px;
+      text-decoration: none;
+  }
+  .navbar a:hover {
+      background-color: #555;
   }
   h1 {
-    font-family: Arial, sans-serif;
+      font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
       background-color: #f4f4f4;
   }
   .hidden {
-    visibility: hidden
+      display: none;
   }
+  #mad-science {
+      padding: 20px;
+      text-align: center;
+  }
+  .project {
+      background-color: #fff;
+      margin: 10px 0;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      width: 100%;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
