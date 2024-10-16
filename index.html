@@ -7,26 +7,55 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+
+  
   <div id="navbar" class="navbar">
-    <a href="#">Welcome</a>
-    <a href="#">Mad Science</a>
-    <a href="#">Contact</a>
+    <a href="#">Home</a>
+    <a href="#projects">Projects</a>
+    <a href="#experiments">Experiments</a>
+    <a href="#contact">Contact</a>
   </div>
 
-  <div id="welcome">
-    <img src="#" alt="image">
-    <h1>Welcome</h1>
-  </div>
-
-  <div id="mad-science">
-    <h2>MadScientist</h2>
-    <button onclick="toggleDropdown()">Show Projects</button>
-    <div id="project-list" class="hidden">
-      <h3>Electric Guitar</h3>
-      <h3>Electric Skateboard</h3>
-      <h3>Computers</h3>
+  <div id="hero" class="hero">
+    <div class="banner">
+      <img src="https://vignette.wikia.nocookie.net/overwatch/images/7/7a/The_Return_of_Junkenstein_1.jpg/revision/latest?cb=20171019180614" class="active">
+      <img src="https://example.com/tech-experiments.jpg" alt="Tech Experiments">
+      <img src="https://example.com/futuristic-city.jpg" alt="Futuristic City">
     </div>
+    <h1>Welcome to the Mad Lab</h1>
   </div>
+
+  <button id="dropdownButton"> 
+    <img src="https://vignette.wikia.nocookie.net/overwatch/images/7/7a/The_Return_of_Junkenstein_1.jpg/revision/latest?cb=20171019180614" class="active">
+  </button>
+  <div id="dropdownContent" class="banner">
+
+    <div id="sectionTitle" class="title">
+      <h2>Projects</h2>
+    </div>
+
+    <div id="ElectricGuitar" class="section">
+        <h2>Electric Guitar</h2>
+        <p>It's a Guitar made out of Electricity</p>
+    </div>
+
+    <div id="ElectricSkateboard" class="section">
+        <h2>Electric Skateboard</h2>
+        <p>It's a Sakteboard made out of Electricity</p>
+    </div>
+
+    
+    
+  </div>
+
+  <footer>
+    <div id="contact">
+      <h2>Contact</h2>
+      <p>Sorry, You're not cool enough to access this information. Come back later after you've tripped an annoying child or something</p>
+    </div>
+  </footer>
+  
 
   <script src="script.js"></script>
 </body>
